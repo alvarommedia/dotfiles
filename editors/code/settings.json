@@ -1,0 +1,70 @@
+{
+  "breadcrumbs.enabled": false,
+  "css.validate": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": [
+    "source.addMissingImports",
+    "source.organizeImports",
+    "source.fixAll.eslint",
+    "source.fixAll.stylelint"
+  ],
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.dragAndDrop": false,
+  "editor.fontFamily": "'Cascadia Code PL', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": true,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.rulers": [100],
+  "editor.smoothScrolling": true,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "off",
+  "eslint.format.enable": true,
+  "eslint.validate": ["javascript"],
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.excludeGitIgnore": true,
+  "explorer.openEditors.visible": 1,
+  "files.autoSave": "onFocusChange",
+  "files.eol": "\n",
+  "focus.highlightRange": "block",
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.openRepositoryInParentFolders": "always",
+  "github.copilot.editor.enableAutoCompletions": false,
+  "less.validate": false,
+  "oneDarkPro.vivid": true,
+  "scss.validate": false,
+  "search.useGlobalIgnoreFiles": true,
+  "search.useIgnoreFiles": true,
+  "stylelint.enable": true,
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.editor.showTabs": "single",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.list.horizontalScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.tree.enableStickyScroll": true,
+  "workbench.tree.indent": 20,
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "workbench.activityBar.location": "hidden",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

@@ -1,0 +1,20 @@
+Host docker-01
+HostName 192.168.1.12
+User docker-01
+IdentityFile ~/.ssh/docker-01
+
+Host truenas
+HostName 192.168.1.18
+User root
+IdentityFile ~/.ssh/omv
+
+Host github.com
+AddKeysToAgent yes
+UseKeychain yes
+IdentityFile ~/.ssh/github_alvarommedia
+
+Host chalecos
+  HostName 192.168.1.19
+  User chalecos
+  IdentityFile ~/.ssh/chalecos
+  
