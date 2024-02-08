@@ -3,6 +3,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/services"
 brew "fnm"
 brew "gh"
+brew "gnupg"
 brew "mas"
 brew "rust"
 cask "appcleaner"
@@ -29,6 +30,7 @@ cask "zoom"
 mas "Bitwarden", id: 1352778147
 mas "Canary Mail", id: 1236045954
 mas "Kindle", id: 302584613
+mas "Things", id: 904280696
 mas "Unsplash Wallpapers", id: 1284863847
 mas "WireGuard", id: 1451685025
 vscode "aaron-bond.better-comments"
