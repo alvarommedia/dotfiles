@@ -63,8 +63,9 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
-  "workbench.activityBar.location": "hidden",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.activityBar.location": "hidden"
 }
